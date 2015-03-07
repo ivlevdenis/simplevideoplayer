@@ -1,0 +1,14 @@
+BoxLayout:
+    orientation: 'horizontal'
+    VideoPlayer:
+        id: videoplayer
+        size_hint: (.7, 1)
+    BoxLayout:
+        size_hint: (.3, 1)
+        orientation: 'vertical'
+        TextInput:
+            id: path
+            size_hint: (1, .1)
+            text: 'Put path'
+        ListView:
+            id: filelist
